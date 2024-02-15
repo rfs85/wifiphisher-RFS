@@ -157,6 +157,6 @@ CONST_A = "Pairwise key expansion"
 DENY_MACS_PATH = '/tmp/hostapd.deny'
 
 # Known Beacons
-KB_INTERVAL = 20
-KB_BUCKET_SIZE = 60
+KB_INTERVAL = 2
+KB_BUCKET_SIZE = 10
 KB_BEACON_CAP = 0x2105
